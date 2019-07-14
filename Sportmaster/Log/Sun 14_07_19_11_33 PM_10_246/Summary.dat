@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There is (are) 1 running instance(s) of &quot;C:\Sportmaster\TestEnvironment(TD32).exe&quot;. New instances will not be launched."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="460"/>
+						<Prp name="name" type="S" value="Запуск приложения"/>
+						<Prp name="duration" type="I" value="460"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADAANwA0AEIAMwA4ADEALQA5ADcARQA4AC0ANABBADcAOAAtADkAMgAwADEALQAzAEIAMgBBADUARgBGADcARAA1ADMANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="starttime" type="D" value="43660.9813687384"/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="43660.9813687384"/>
+				<Prp name="name" type="S" value="Sportmaster"/>
+				<Prp name="duration" type="I" value="460"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="Sportmaster"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="43660.9813747222"/>
+		<Prp name="host" type="S" value="MAX"/>
+		<Prp name="executionstatus" type="I" value="1"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="user" type="S" value="Admin"/>
+		<Prp name="testname" type="S" value="Sportmaster"/>
+		<Prp name="starttime" type="D" value="43660.9813686806"/>
+		<Prp name="key" type="S" value="{6CC02973-D9A9-4580-B11F-859B7FB1D7E2}"/>
+		<Prp name="warningtests" type="I" value="1"/>
+	</Node>
+</Nodes>

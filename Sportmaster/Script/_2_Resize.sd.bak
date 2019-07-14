@@ -1,0 +1,7 @@
+﻿function MaximizeTestedApp;
+var FocusApp, MainApp, MaximizeApp, Response;
+begin
+
+  MainApp := _2_Resize.MainApp.VCLObject('dxRibbon').Window('TdxRibbonGroupsDockControlSite', '', 1).Window('TdxRibbonGroupsDockControl', '', 1).Window('TdxRibbonGroupBarControl', '', 1).Click();
+  
+end;

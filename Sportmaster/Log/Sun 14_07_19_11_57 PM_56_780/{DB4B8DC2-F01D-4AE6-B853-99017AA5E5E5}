@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{7AF6582A-6399-4C77-B078-DA64C2FA4C60}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43660.9985843634"/>
+				<Prp name="end time" type="D" value="43660.9985877083"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{7704C078-D77E-4580-8D15-B85331FAE59F}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43660.9985780903"/>
+				<Prp name="end time" type="D" value="43660.9985843287"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

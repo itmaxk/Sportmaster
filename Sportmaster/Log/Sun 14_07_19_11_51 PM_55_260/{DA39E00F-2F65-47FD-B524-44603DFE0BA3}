@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="end time" type="D" value="43660.994431088"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="43660.994431088"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="end time" type="D" value="43660.9944310417"/>
+				<Prp name="details" type="S" value="{D8063CC4-E981-4E35-984A-869DB64B50E9}"/>
+				<Prp name="start time" type="D" value="43660.9943950463"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="end time" type="D" value="43660.9943950231"/>
+				<Prp name="details" type="S" value="{F98718D1-13C4-4A73-93F0-2C67F5831CD3}"/>
+				<Prp name="start time" type="D" value="43660.9943940278"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

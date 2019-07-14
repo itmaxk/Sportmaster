@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="43661.0107622801"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="end time" type="D" value="43661.0107622801"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="43661.010652338"/>
+				<Prp name="details" type="S" value="{F4D45C58-22CF-419F-A25D-440479F9D926}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="end time" type="D" value="43661.0106533449"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="43661.0106533681"/>
+				<Prp name="details" type="S" value="{FE5E3D6B-2A13-43AA-8FB0-467AFA97A090}"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="end time" type="D" value="43661.0107622801"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

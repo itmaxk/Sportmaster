@@ -1,0 +1,8 @@
+﻿function CloseTestedApp;
+var CloseMainApp;
+begin
+
+  CloseMainApp := Sys.Process('TestEnvironment(TD32)').Terminate;
+
+end;
+

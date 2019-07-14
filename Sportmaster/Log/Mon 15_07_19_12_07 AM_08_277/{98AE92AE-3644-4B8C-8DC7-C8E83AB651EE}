@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Prp name="start time" type="D" value="43661.0049719676"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="name" type="S" value="The element to be run specified in the '3. Выбрать раздел &quot;Форма редакторов&quot;' test item was not found."/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43661.0049719676"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="start time" type="D" value="43661.0049728588"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43661.0049728588"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="start time" type="D" value="43661.004961713"/>
+				<Prp name="details" type="S" value="{323A97CC-3DFA-41A0-83EB-1182CB22BDEB}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43661.0049681366"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="start time" type="D" value="43661.0049681713"/>
+				<Prp name="details" type="S" value="{D9A2DF3F-DB7E-4588-AE8C-B3356A315FA7}"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43661.0049719097"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="start time" type="D" value="43661.0049719676"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="Element to be run"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="43661.0049719676"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

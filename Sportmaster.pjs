@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D7FF4BA1-93C6-4EED-B2F8-9F165E83FA54}">
+	<children>
+		<child name="Sportmaster" key="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}" path="Sportmaster\Sportmaster.mds" />
+	</children>
+	<testItems key="{AB167BF0-06DD-44E3-AA85-58B4EDA8D7BF}">
+		<children>
+			<testItem key="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{69B447C6-3FFF-42C1-8B78-DC37A127BB0D}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{9F147D94-7975-4D11-855F-B1100CEFAB5C}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

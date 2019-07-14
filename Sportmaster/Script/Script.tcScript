@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="_1_Run" key="{47DF03CB-99E8-4308-9181-4C319FC652A5}" path="_1_Run.sd" />
+		<child name="_2_Resize" key="{26345040-DDF9-44A8-817E-48D9F0605055}" path="_2_Resize.sd" />
+		<child name="_3_Editors_Form" key="{39C16801-6E7F-4569-8C39-5506894C1314}" path="_3_Editors_Form.sd" />
+		<child name="_CloseApp" key="{1389EECA-16BC-4510-9C95-B108F0AEB84C}" path="_CloseApp.sd" />
+	</children>
+</Root>

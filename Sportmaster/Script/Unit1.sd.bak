@@ -1,0 +1,15 @@
+﻿function LaunchTestedApp;
+var Proc, Res;
+begin
+
+  Proc := TestedApps.TD32.Run();
+  Res := Proc.Exists;
+  
+  // Checks whether the application has started successfully
+  if Res then
+    Log.Message('The application has been started successfully.')
+  else
+    Log.Message('The application hasn''t been started.');
+
+end;
+

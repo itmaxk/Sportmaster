@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43661.0051247685"/>
+				<Prp name="details" type="S" value="{1B51EB47-2013-4AB0-B4B8-8E6B88DB0FD0}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма редакторов&quot; [Script\_3_Editors_Form - OpenEditorsFormApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="43661.0051277778"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43661.0051143171"/>
+				<Prp name="details" type="S" value="{DA5428F8-441E-4D00-98FB-B7CD7F172787}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="43661.0051206944"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43661.0051207292"/>
+				<Prp name="details" type="S" value="{717AA61A-08F3-44E4-8730-5875EB1523AD}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="43661.0051246759"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
