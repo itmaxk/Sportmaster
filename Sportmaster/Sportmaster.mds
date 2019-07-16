@@ -22,7 +22,11 @@
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="4. Перейти в первое поле &apos;Memo&apos;" key="{2D4DC128-457A-4994-ABE0-DD3476E40BF3}" group="False" enabled="True" testMoniker="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}GoToMemoApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>

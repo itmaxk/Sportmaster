@@ -4,5 +4,4 @@ begin
 
   OpenEditorsForm := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').VCLObject('bbEdits').Click();
   
-  
 end;

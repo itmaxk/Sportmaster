@@ -1,0 +1,14 @@
+﻿function AddTextToMemoApp;
+var LabelMemo, TestText, MainMenu, ClickToMemoValue;
+begin
+  
+MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  TestText := '_________';
+    LabelMemo := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 7);
+  ClickToMemoValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 7).Click;
+  if (LabelMemo.Caption = TestText) then
+    Log.Message('1')
+  else
+    Log.Message('2');
+
+end;

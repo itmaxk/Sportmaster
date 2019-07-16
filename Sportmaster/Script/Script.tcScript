@@ -5,5 +5,6 @@
 		<child name="_2_Resize" key="{26345040-DDF9-44A8-817E-48D9F0605055}" path="_2_Resize.sd" />
 		<child name="_3_Editors_Form" key="{39C16801-6E7F-4569-8C39-5506894C1314}" path="_3_Editors_Form.sd" />
 		<child name="_CloseApp" key="{1389EECA-16BC-4510-9C95-B108F0AEB84C}" path="_CloseApp.sd" />
+		<child name="_4_5_6_7_AddTextToMemo" key="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}" path="_4_5_6_7_AddTextToMemo.sd" />
 	</children>
 </Root>
