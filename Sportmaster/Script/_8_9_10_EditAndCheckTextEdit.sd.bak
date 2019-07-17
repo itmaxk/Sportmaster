@@ -1,0 +1,16 @@
+﻿function EditAndCheckTextEdit;
+var GoToTextEdit, ClickToMemoValue, MainMenu, LabelTextEdit, TestText;
+begin
+  
+  TestText := '_________';
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  GoToTextEdit := MainMenu.VCLObject('pMainPanel').VCLObject('edTest').VCLObject('edTestEdit').Window('TcxCustomInnerTextEdit', '', 1);
+  GoToTextEdit.Text() := 'Test12345!';
+  LabelTextEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 1);
+  ClickToMemoValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 1).Click;
+  if (LabelTextEdit.Caption = TestText) then
+    Log.Message('Новое значение появилось!')
+  else
+    Log.Message('Значение не совпадает с переданным!');
+  
+end;

@@ -1,0 +1,24 @@
+﻿function TestCheckBox;
+var SelectCheckBox, ClickToCheckBox, MainMenu, LabelCheckBox1, LabelCheckBox2, TestFalse, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  ClickToCheckBox := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
+  TestFalse := 'False';
+  LabelCheckBox1 := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', 'False', 14);
+  if (LabelCheckBox.Caption = TestFalse) then
+    Log.Message('Значение False справа от CheckBox появилось!')
+  else
+    Log.Message('Не указано значения или отображается другое значение справа от CheckBox');
+  
+  SelectCheckBox := MainMenu.VCLObject('pMainPanel').VCLObject('cbTest').VCLObject('cbTestEdit').Click;
+  ClickToCheckBox := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
+  TestTrue := 'True';
+  LabelCheckBox2 := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', 'True', 14);
+  if (LabelCheckBox.Caption = TestTrue) then
+    Log.Message('Значение True справа от CheckBox появилось!')
+  else
+    Log.Message('Не указано значения или отображается другое значение справа от CheckBox');
+
+  
+end;

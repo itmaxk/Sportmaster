@@ -1,7 +1,9 @@
 ﻿function MaximizeTestedApp;
-var FocusApp, MainApp, MaximizeApp, Response;
+var FocusApp, MainApp, MaximizeApp;
 begin
 
-  MainApp := _2_Resize.MainApp.VCLObject('dxRibbon').Window('TdxRibbonGroupsDockControlSite', '', 1).Window('TdxRibbonGroupsDockControl', '', 1).Window('TdxRibbonGroupBarControl', '', 1).Click();
+  MainApp := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain');
+  FocusApp := MainApp.Click();
+  MaximizeApp := MainApp.Maximize;
   
 end;

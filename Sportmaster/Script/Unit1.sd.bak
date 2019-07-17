@@ -1,15 +1,16 @@
-﻿function LaunchTestedApp;
-var Proc, Res;
+﻿function EditAndCheckTextEdit;
+var GoToTextEdit, ClickToMemoValue, MainMenu, LabelTextEdit, TestText;
 begin
-
-  Proc := TestedApps.TD32.Run();
-  Res := Proc.Exists;
   
-  // Checks whether the application has started successfully
-  if Res then
-    Log.Message('The application has been started successfully.')
+  TestText := 'Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.';
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  GoToTextEdit := MainMenu.VCLObject('pMainPanel').VCLObject('edTest').VCLObject('edTestEdit').Window('TcxCustomInnerTextEdit', '', 1);
+  GoToTextEdit.Text() := 'Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.';
+  LabelTextEdit := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 7);
+  ClickToMemoValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 7).Click;
+  if (LabelTextEdit.Caption = TestText) then
+    Log.Message('Текст совпадает с введённым текстом в поле Memo')
   else
-    Log.Message('The application hasn''t been started.');
-
+    Log.Message('Текст не совпадает с введённым текстом в поле Memo');
+  
 end;
-

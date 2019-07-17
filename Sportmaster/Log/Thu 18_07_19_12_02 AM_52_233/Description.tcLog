@@ -20,19 +20,19 @@
 <Nodes version="1">
 	<Node name="root">
 		<Prp name="test type" type="S" value="Sportmaster"/>
-		<Prp name="user name" type="S" value="Admin"/>
+		<Prp name="warning test count" type="I" value="0"/>
+		<Prp name="error test count" type="I" value="0"/>
+		<Prp name="error count" type="I" value="0"/>
+		<Prp name="computer name" type="S" value="MAX"/>
 		<Prp name="completed" type="B" value="-1"/>
+		<Prp name="root logdata name" type="S" value="Sportmaster"/>
+		<Prp name="start time" type="D" value="43664.0019934375"/>
+		<Prp name="user name" type="S" value="Admin"/>
+		<Prp name="stop time" type="D" value="43664.002038206"/>
+		<Prp name="test count" type="I" value="0"/>
+		<Prp name="warning count" type="I" value="0"/>
 		<Prp name="success test count" type="I" value="0"/>
 		<Prp name="status" type="I" value="0"/>
-		<Prp name="error test count" type="I" value="0"/>
-		<Prp name="computer name" type="S" value="MAX"/>
-		<Prp name="root logdata name" type="S" value="Sportmaster"/>
-		<Prp name="warning test count" type="I" value="0"/>
-		<Prp name="warning count" type="I" value="0"/>
 		<Prp name="root file name" type="S" value="RootLogData.dat"/>
-		<Prp name="error count" type="I" value="0"/>
-		<Prp name="stop time" type="D" value="43662.9492057292"/>
-		<Prp name="test count" type="I" value="0"/>
-		<Prp name="start time" type="D" value="43662.9491037616"/>
 	</Node>
 </Nodes>

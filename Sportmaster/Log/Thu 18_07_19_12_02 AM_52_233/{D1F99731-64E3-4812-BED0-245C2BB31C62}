@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row3">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="4-7. Проверка Memo [Script\_4_7_Memo - TestMemo]"/>
+				<Prp name="details" type="S" value="{6541CB84-E887-46EF-A0D7-C7656DD81A29}"/>
+				<Prp name="end time" type="D" value="43664.0020264583"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020216088"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма редакторов&quot; [Script\_3_Editors_Form - OpenEditorsFormApp]"/>
+				<Prp name="details" type="S" value="{947C529C-9218-4FA3-895E-0FF63EFC107F}"/>
+				<Prp name="end time" type="D" value="43664.0020215741"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020032292"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="8-10. Проверка TextEdit [Script\_8_10_TextEdit - TestTextEdit]"/>
+				<Prp name="details" type="S" value="{D722594C-F737-4E09-B39B-AE648F82ACAE}"/>
+				<Prp name="end time" type="D" value="43664.0020289931"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020264931"/>
+			</Node>
+			<Node name="row6">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="Закрыть приложение [Script\_CloseApp - CloseTestedApp]"/>
+				<Prp name="details" type="S" value="{6FA20BA7-F802-4286-8DDC-10431EFE006D}"/>
+				<Prp name="end time" type="D" value="43664.0020376389"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020365509"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="details" type="S" value="{9E9869C5-9949-44B8-8D7D-44B71A9BFA13}"/>
+				<Prp name="end time" type="D" value="43664.0020002546"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0019935764"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Resize - MaximizeTestedApp]"/>
+				<Prp name="details" type="S" value="{A808160E-C6D2-476A-AB74-DAAF21A46AD3}"/>
+				<Prp name="end time" type="D" value="43664.0020031597"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020002894"/>
+			</Node>
+			<Node name="row5">
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="9-15. Проверка CheckBox [Script\_9_15_CheckBox - TestCheckBox]"/>
+				<Prp name="details" type="S" value="{72D20454-8582-4E5B-86C7-85840EF517E4}"/>
+				<Prp name="end time" type="D" value="43664.0020365162"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="43664.0020290278"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -6,11 +6,11 @@ begin
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
   GoToMemo := MainMenu.VCLObject('pMainPanel').VCLObject('mTest').VCLObject('mTestEdit').Window('TcxCustomInnerMemo', '', 1);
   GoToMemo.Text() := 'Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.';
-  LabelMemo := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain').VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 7);
+  LabelMemo := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 7);
   ClickToMemoValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 7).Click;
-  if (LabelMemo.Caption = TestText) then
-    Log.Message('Текст совпадает с введённым текстом в поле Memo')
+  if (LabelTextEdit.Caption = TestText) then
+    Log.Message('Новое значение в поле Memo появилось!')
   else
-    Log.Message('Текст не совпадает с введённым текстом в поле Memo');
+    Log.Message('Значение в поле Memo не совпадает с переданным!');
   
 end;

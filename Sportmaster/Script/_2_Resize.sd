@@ -3,7 +3,6 @@ var FocusApp, MainApp, MaximizeApp;
 begin
 
   MainApp := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain');
-  FocusApp := MainApp.Click();
   MaximizeApp := MainApp.Maximize;
   
 end;
