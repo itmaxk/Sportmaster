@@ -23,11 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43664.0019934375"/>
+				<Prp name="datetime" type="D" value="43664.9676794213"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{FFB54FC6-03EA-4588-9325-293324DF9058}"/>
+				<Prp name="key" type="S" value="{4A221DEB-2AEF-4529-8852-7EB1F56A9915}"/>
 				<Prp name="nameofroot" type="S" value="Sportmaster"/>
-				<Prp name="relpath" type="S" value="Thu 18_07_19_12_02 AM_52_233\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="Thu 18_07_19_11_13 PM_27_502\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

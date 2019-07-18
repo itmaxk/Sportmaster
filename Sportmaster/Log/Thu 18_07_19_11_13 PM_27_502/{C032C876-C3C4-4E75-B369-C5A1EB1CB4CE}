@@ -19,9 +19,9 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Node name="stack"/>
-		<Node name="child data"/>
 		<Node name="units"/>
+		<Node name="child data"/>
+		<Node name="stack"/>
 		<Prp name="status" type="I" value="0"/>
 	</Node>
 </Nodes>

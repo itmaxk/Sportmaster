@@ -1,0 +1,16 @@
+﻿function TestCurrencyEdit(GoToCurrencyEdit, ClickToCurrencyEdit, MainMenu, LabelCurrencyEdit, TestText) : String;
+var GoToCurrencyEdit, ClickToCurrencyEdit, MainMenu, LabelCurrencyEdit, TestText;
+begin
+  
+  TestText := '777';
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  GoToCurrencyEdit := MainMenu.VCLObject('pMainPanel').VCLObject('ceTest').VCLObject('ceTestEdit');
+  GoToCurrencyEdit.Text() := '777';
+  LabelCurrencyEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 11);
+  ClickToCurrencyEdit := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 11).Click;
+  if (LabelCurrencyEdit.Caption = TestText) then
+    Log.Message('Новое значение в поле CurrencyEdit появилось!')
+  else
+    Log.Message('Значение в поле CurrencyEdit не совпадает с переданным!');
+  
+end;

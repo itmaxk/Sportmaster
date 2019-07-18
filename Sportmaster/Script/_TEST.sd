@@ -1,0 +1,4 @@
+﻿uses _f
+begin
+  GoToEdit 
+end;

@@ -34,6 +34,16 @@
 				<testParameters />
 				<children />
 			</testItem>
+			<testItem name="16-18. Проверка CurrencyEdit" key="{A9913B4F-77DD-460C-AA75-609035F58F01}" group="False" enabled="True" testMoniker="{86BECEBC-B440-4203-8DB5-F6422B85505A}TestCurrencyEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters>
+					<param0 name="GoToCurrencyEdit" type="3" localVarName="" varType="0" value="" />
+					<param1 name="ClickToCurrencyEdit" type="3" localVarName="" varType="0" value="" />
+					<param2 name="MainMenu" type="3" localVarName="" varType="0" value="" />
+					<param3 name="LabelCurrencyEdit" type="3" localVarName="" varType="0" value="" />
+					<param4 name="TestText" type="3" localVarName="" varType="0" value="" />
+				</testParameters>
+				<children />
+			</testItem>
 			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />

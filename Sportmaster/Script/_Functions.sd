@@ -1,0 +1,15 @@
+﻿function AddAndGetValue(RowNum, NewText) : String;
+var GoToEdit, ClickToCurrencyEdit, MainMenu, LabelCurrencyEdit;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  GoToEdit := MainMenu.GoVCLObject('pMainPanel').VCLObject('ceTest').VCLObject('ceTestEdit');
+  GoToEdit.Text() := NewText;
+  LabelCurrencyEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', RowNum);
+  ClickToCurrencyEdit := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', RowNum).Click;
+  if (LabelCurrencyEdit.Caption = NewText) then
+    Log.Message('Новое значение в поле появилось!')
+  else
+    Log.Message('Значение в поле не совпадает с переданным!');
+  
+end;
