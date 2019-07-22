@@ -30,21 +30,39 @@
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="9-15. Проверка CheckBox" key="{54155006-49A9-406A-B76B-30E6DDDC69F9}" group="False" enabled="True" testMoniker="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}TestCheckBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="11-15. Проверка CheckBox" key="{54155006-49A9-406A-B76B-30E6DDDC69F9}" group="False" enabled="True" testMoniker="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}TestCheckBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>
 			<testItem name="16-18. Проверка CurrencyEdit" key="{A9913B4F-77DD-460C-AA75-609035F58F01}" group="False" enabled="True" testMoniker="{86BECEBC-B440-4203-8DB5-F6422B85505A}TestCurrencyEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="GoToCurrencyEdit" type="3" localVarName="" varType="0" value="" />
-					<param1 name="ClickToCurrencyEdit" type="3" localVarName="" varType="0" value="" />
-					<param2 name="MainMenu" type="3" localVarName="" varType="0" value="" />
-					<param3 name="LabelCurrencyEdit" type="3" localVarName="" varType="0" value="" />
-					<param4 name="TestText" type="3" localVarName="" varType="0" value="" />
-				</testParameters>
+				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="19-21. Проверка CheckComboBox" key="{447B02D3-F509-43EC-AFAC-6106A11F9B01}" group="False" enabled="True" testMoniker="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}TestCheckComboBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="22-25. Проверка SpinEdit" key="{F256A272-D1DC-46D5-A2BE-FC0CEAFACFC6}" group="False" enabled="True" testMoniker="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}TestSpinEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="26-28. Проверка DateEdit" key="{81C97966-B0FA-4CC8-92CE-790FD4211C42}" group="False" enabled="True" testMoniker="{BB859F59-B9F3-4319-A559-83F54A6BA287}TestDateEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="29-32. Проверка ProgressEdit" key="{8B010E85-81CA-4193-92ED-00772E37EC6E}" group="False" enabled="True" testMoniker="{71DBE537-3EFD-403F-B0D2-98C376666972}TestProgressEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="33-37. Проверка LookUpEdit" key="{AF28AFB1-B374-4FDB-84A9-F472D57FA5B3}" group="False" enabled="True" testMoniker="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}TestLookUpEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="38. Закрыть вкладку &quot;Форма редакторов&quot;" key="{35A9FDD6-9B29-49FE-97A7-00B09E9BF822}" group="False" enabled="True" testMoniker="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}TestCloseFEdits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children />
 			</testItem>
@@ -364,7 +382,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_Web_EnableSupportForWebComponents" type="1" value="True" />
-		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="32" colIndex="9">
+		<setting name="OpenApps_Web_ObjIdentification_DynamicIdentifiers" type="6" rowIndex="32" colIndex="4">
 			<columns>
 				<column type="2" enabled="True" />
 				<column type="2" enabled="True" />
@@ -566,7 +584,7 @@
 		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
-		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
 		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />

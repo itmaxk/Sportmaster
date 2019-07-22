@@ -1,5 +1,5 @@
 ﻿function MaximizeTestedApp;
-var FocusApp, MainApp, MaximizeApp;
+var MainApp, MaximizeApp;
 begin
 
   MainApp := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain');

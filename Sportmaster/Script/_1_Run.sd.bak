@@ -1,9 +1,9 @@
 ﻿function LaunchTestedApp;
-var Proc, Response;
+var StartMainApp, Response;
 begin
 
-  Proc := TestedApps.TD32.Run();
-  Response := Proc.Exists;
+  StartMainApp := TestedApps.TD32.Run();
+  Response := StartMainApp.Exists;
   
   // Checks whether the application has started successfully
   if Response then

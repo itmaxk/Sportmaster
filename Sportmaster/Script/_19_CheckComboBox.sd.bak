@@ -1,0 +1,17 @@
+﻿function TestCheckComboBox;
+var ClickToCheckComboBox, MainMenu, LabelCheckComboBox, TestFalse, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  ClickToCheckComboBox := MainMenu.VCLObject('pButtonsPanel').VCLObject('ccbTest').VCLObject('ccbTestEdit').Click;
+  ClickToCheckComboBox.Text := 'Name 1';
+  ClickToCheckComboBox := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 13).Click;
+  TestTrue := '1';
+  LabelCheckComboBox := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 13);
+  if (LabelCheckComboBox.Caption = TestTrue) then
+    Log.Message('Значение справа от кнопки появилось!')
+  else
+    Log.Message('Не указано значения или отображается другое значение справа от кнопки');
+
+  
+end;

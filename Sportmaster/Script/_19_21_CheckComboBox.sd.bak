@@ -1,0 +1,16 @@
+﻿function TestCheckComboBox;
+var ClickToCheckComboBox, ClickToCheckComboBoxList, ClickToCheckComboBoxValue, MainMenu, LabelCheckComboBox, TestFalse, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  ClickToCheckComboBox := MainMenu.VCLObject('pMainPanel').VCLObject('ccbTest').VCLObject('ccbTestEdit').Click();
+  ClickToCheckComboBoxList := Sys.Process('TestEnvironment(TD32)').Window('TcxCheckComboBoxPopupWindow', '', 1).Window('TcxEditListBoxContainer', '', 1).Window('TcxCustomCheckComboBoxListBox', '', 1).Click();
+  ClickToCheckComboBoxValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 13).Click;
+  TestTrue := '2';
+  LabelCheckComboBox := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '2', 13);
+  if (LabelCheckComboBox.Caption = TestTrue) then
+    Log.Message('Значение справа от кнопки появилось!')
+  else
+    Log.Message('Не указано значения или отображается другое значение справа от кнопки');
+
+end;

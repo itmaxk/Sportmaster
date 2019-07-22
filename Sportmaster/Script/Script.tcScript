@@ -7,7 +7,13 @@
 		<child name="_CloseApp" key="{1389EECA-16BC-4510-9C95-B108F0AEB84C}" path="_CloseApp.sd" />
 		<child name="_4_7_Memo" key="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}" path="_4_7_Memo.sd" />
 		<child name="_8_10_TextEdit" key="{DE23E989-53AC-4243-873B-544A6469F530}" path="_8_10_TextEdit.sd" />
-		<child name="_9_15_CheckBox" key="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}" path="_9_15_CheckBox.sd" />
+		<child name="_11_15_CheckBox" key="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}" path="_11_15_CheckBox.sd" />
 		<child name="_16_18_CurrencyEdit" key="{86BECEBC-B440-4203-8DB5-F6422B85505A}" path="_16_18_CurrencyEdit.sd" />
+		<child name="_19_21_CheckComboBox" key="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}" path="_19_21_CheckComboBox.sd" />
+		<child name="_22_25_SpinEdit" key="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}" path="_22_25_SpinEdit.sd" />
+		<child name="_26_28_DateEdit" key="{BB859F59-B9F3-4319-A559-83F54A6BA287}" path="_26_28_DateEdit.sd" />
+		<child name="_29_32_ProgressEdit" key="{71DBE537-3EFD-403F-B0D2-98C376666972}" path="_29_32_ProgressEdit.sd" />
+		<child name="_33_37_LookUpEdit" key="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}" path="_33_37_LookUpEdit.sd" />
+		<child name="_38_Editors_Form" key="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}" path="_38_Editors_Form.sd" />
 	</children>
 </Root>

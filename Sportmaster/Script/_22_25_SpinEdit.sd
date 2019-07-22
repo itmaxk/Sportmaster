@@ -1,0 +1,18 @@
+﻿function TestSpinEdit;
+var ClickToSpinEdit, KeyPreview, ClickToSpinEditValue, MainMenu, LabelSpinEdit, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  ClickToSpinEdit := MainMenu.VCLObject('pMainPanel').VCLObject('seTest').VCLObject('seTestEdit');
+  ClickToSpinEdit.SetText('5');
+  KeyPreview := true;
+  ClickToSpinEdit.Keys('[Up]');
+  TestTrue := '6';
+  ClickToSpinEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 2).Click;
+  LabelSpinEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '6', 2);
+  if (LabelSpinEdit.Caption = TestTrue) then
+    Log.Message('Значение справа от кнопки появилось!')
+  else
+    Log.Message('Не указано значения или отображается другое значение справа от кнопки');
+
+end;

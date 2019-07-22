@@ -1,0 +1,18 @@
+﻿function TestProgressEdit;
+var i, ClickToProgressEdit, ClickToProgressEditValue, MainMenu, LabelProgressEdit, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+    For i:=1 to 5 do
+    begin
+      ClickToProgressEdit := MainMenu.VCLObject('pMainPanel').VCLObject('peTest').VCLObject('peTestUp').Click;
+    end;
+  ClickToProgressEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 4).Click;
+  TestTrue := '_________';
+  LabelProgressEdit := MainMenu.VCLObject('pButtonsPanel').Window('TcxLabel', '12', 4);
+  if (LabelProgressEdit.Caption = TestTrue) then
+    Log.Message('Значение не изменилось')
+  else
+    Log.Message('Отображается новое значение от кнопки справа');
+
+end;

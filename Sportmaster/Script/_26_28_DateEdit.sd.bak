@@ -1,0 +1,15 @@
+﻿function TestDateEdit;
+var ClickToDateEdit, ClickToDateEditValue, MainMenu, LabelDateEdit, TestTrue;
+begin
+  
+ MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  ClickToDateEdit := MainMenu.VCLObject('pMainPanel').VCLObject('deTest').VCLObject('deTestEdit').SetDate(43777);
+  ClickToDateEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 2).Click;
+  TestTrue := '_________';
+  LabelDateEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', 'Fri 08.11.19', 10);
+  if (LabelDateEdit.Caption = TestTrue) then
+    Log.Message('Значение не изменилось')
+  else
+    Log.Message('Отображается новое значение от кнопки справа');
+
+end;

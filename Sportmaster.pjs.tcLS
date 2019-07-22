@@ -23,8 +23,14 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}"/>
 			</Node>
+			<Node name="{43b9a408-3c5e-41c9-92be-9e32621aa4cb}">
+				<Prp name="relpath" type="S" value="..\Users\Admin\Desktop\SportMasterRecordTest\TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
 			<Node name="{44ec274c-837b-4bee-8235-ace6a3a7b84c}">
 				<Prp name="relpath" type="S" value="Sportmaster\Sportmaster.mds.tcLS"/>
+			</Node>
+			<Node name="{5b4ebbf9-5031-4368-9f81-71a8f1fa449f}">
+				<Prp name="relpath" type="S" value="..\Users\Admin\Desktop\SportMasterRecordTest\SportMasterRecordTest\SportMasterRecordTest.mds.tcLS"/>
 			</Node>
 			<Node name="envmngrlogs">
 				<Prp name="key" type="S" value="{B58A4EA0-EDA7-4E9A-8B67-C577D7A4C015}"/>

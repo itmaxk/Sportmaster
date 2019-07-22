@@ -7,9 +7,9 @@ begin
   
   // Checks whether the application has started successfully
   if Response then
-    Log.Message('The application has been started successfully.')
+    Log.Message('Приложение успешно запущено.')
   else
-    Log.Message('The application hasn''t been started.');
+    Log.Message('Приложение не запущено.');
 
 end;
 

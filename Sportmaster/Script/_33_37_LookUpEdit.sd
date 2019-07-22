@@ -1,0 +1,16 @@
+﻿function TestLookUpEdit;
+var OpenList, SelectItem, ClickToLookUpEditValue, MainMenu, LabelLookUpEdit, TestTrue;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
+  OpenList := MainMenu.VCLObject('pMainPanel').VCLObject('lueTest').VCLObject('lueTestEdit').DropDown;
+  SelectItem := Sys.Process('TestEnvironment(TD32)').Window('TcxComboBoxPopupWindow', '', 1).Window('TcxCustomLookupDBGrid', '', 2).Click();
+  ClickToLookUpEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 9).Click;
+  TestTrue := '_________';
+  LabelLookUpEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '2', 9);
+  if (LabelLookUpEdit.Caption = TestTrue) then
+    Log.Message('Значение не изменилось')
+  else
+    Log.Message('Отображается новое значение от кнопки справа');
+
+end;
