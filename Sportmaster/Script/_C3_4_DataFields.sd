@@ -44,9 +44,7 @@ begin
   SecondClick := CityFilter.Click(9,9); // Uncheck (Show All)
   Delay(ms, SecondClick);
   
-  ThirdClick := CityFilter.Click(25,25);
-  //ThirdClick := CityFilter.Keys('[Down][Down][Down]'); 
-  //CityFilter.Click();// Select Orenburg
+  ThirdClick := CityFilter.Click(9,45); // Select Orenburg
   Delay(ms, ThirdClick);
   
 end;

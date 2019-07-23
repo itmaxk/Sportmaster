@@ -2,12 +2,10 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D7FF4BA1-93C6-4EED-B2F8-9F165E83FA54}">
 	<children>
 		<child name="Sportmaster" key="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}" path="Sportmaster\Sportmaster.mds" />
-		<child name="TestProject1" key="{82D4902F-1EA6-491B-9DD5-B50F903FE2D6}" path="..\Users\Admin\Desktop\SportMasterRecordTest\TestProject1\TestProject1.mds" />
 	</children>
 	<testItems key="{AB167BF0-06DD-44E3-AA85-58B4EDA8D7BF}">
 		<children>
 			<testItem key="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{82D4902F-1EA6-491B-9DD5-B50F903FE2D6}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{69B447C6-3FFF-42C1-8B78-DC37A127BB0D}">
