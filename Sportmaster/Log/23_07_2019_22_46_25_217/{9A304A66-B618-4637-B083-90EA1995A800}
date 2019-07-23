@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{24539412-C7C4-4F67-9A09-ADCB867EDF18}"/>
+				<Prp name="start time" type="D" value="43669.9489097222"/>
+				<Prp name="end time" type="D" value="43669.9489114583"/>
+				<Prp name="name" type="S" value="2. Развернуть приложение на весь экран [Script\_2_Maximize - MaximizeTestedApp]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row2">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{786329E1-8444-4F60-9008-F0F05EBC5999}"/>
+				<Prp name="start time" type="D" value="43669.9489116088"/>
+				<Prp name="end time" type="D" value="43669.9489270602"/>
+				<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма с PivotGrid&quot; [Script\_C3_3_PivotGrid_Run - OpenPivotGridApp]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row3">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{223150BE-2130-48AF-8D82-E921410136FD}"/>
+				<Prp name="start time" type="D" value="43669.9489270949"/>
+				<Prp name="end time" type="D" value="43669.9490654861"/>
+				<Prp name="name" type="S" value="4. DataFields [Script\_C3_4_DataFields - SelectDataFields]"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{C77F97E5-7952-49D9-9379-DD51E2382B42}"/>
+				<Prp name="start time" type="D" value="43669.948903206"/>
+				<Prp name="end time" type="D" value="43669.9489096759"/>
+				<Prp name="name" type="S" value="1. Запустить приложение [Script\_1_Run - LaunchTestedApp]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row4">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="43669.9490654861"/>
+				<Prp name="end time" type="D" value="43669.9490654861"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

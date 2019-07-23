@@ -10,61 +10,116 @@
 	<config language="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" />
 	<testItems key="{A8B992A2-B884-4010-85F3-041BC10C2F6D}" version="14">
 		<children>
-			<testItem name="1. Запустить приложение" key="{8C7C13FF-6683-4D4D-BEC4-BAA849FDF537}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Case_1_FEdits" key="{5E8152C4-4518-416C-AB4F-6D593E2A4A84}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="1. Запустить приложение" key="{8C7C13FF-6683-4D4D-BEC4-BAA849FDF537}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2. Развернуть приложение на весь экран" key="{11263D6A-3F19-4407-8633-D696187B1091}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="3. Выбрать раздел &quot;Форма редакторов&quot;" key="{08CD165C-0C53-4A31-95C2-0BE0795F68C1}" group="False" enabled="True" testMoniker="{39C16801-6E7F-4569-8C39-5506894C1314}OpenEditorsFormApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="4-7. Проверка Memo" key="{2D4DC128-457A-4994-ABE0-DD3476E40BF3}" group="False" enabled="True" testMoniker="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}TestMemo" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="8-10. Проверка TextEdit" key="{6CFE4BF1-31B6-4F4E-A36D-B24A4787D6D8}" group="False" enabled="True" testMoniker="{DE23E989-53AC-4243-873B-544A6469F530}TestTextEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="11-15. Проверка CheckBox" key="{54155006-49A9-406A-B76B-30E6DDDC69F9}" group="False" enabled="True" testMoniker="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}TestCheckBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="16-18. Проверка CurrencyEdit" key="{A9913B4F-77DD-460C-AA75-609035F58F01}" group="False" enabled="True" testMoniker="{86BECEBC-B440-4203-8DB5-F6422B85505A}TestCurrencyEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="19-21. Проверка CheckComboBox" key="{447B02D3-F509-43EC-AFAC-6106A11F9B01}" group="False" enabled="True" testMoniker="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}TestCheckComboBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="22-25. Проверка SpinEdit" key="{F256A272-D1DC-46D5-A2BE-FC0CEAFACFC6}" group="False" enabled="True" testMoniker="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}TestSpinEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="26-28. Проверка DateEdit" key="{81C97966-B0FA-4CC8-92CE-790FD4211C42}" group="False" enabled="True" testMoniker="{BB859F59-B9F3-4319-A559-83F54A6BA287}TestDateEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="29-32. Проверка ProgressEdit" key="{8B010E85-81CA-4193-92ED-00772E37EC6E}" group="False" enabled="True" testMoniker="{71DBE537-3EFD-403F-B0D2-98C376666972}TestProgressEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="33-37. Проверка LookUpEdit" key="{AF28AFB1-B374-4FDB-84A9-F472D57FA5B3}" group="False" enabled="True" testMoniker="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}TestLookUpEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="38. Закрыть вкладку &quot;Форма редакторов&quot;" key="{35A9FDD6-9B29-49FE-97A7-00B09E9BF822}" group="False" enabled="True" testMoniker="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}TestCloseFEdits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
-			<testItem name="2. Развернуть приложение на весь экран" key="{11263D6A-3F19-4407-8633-D696187B1091}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Case_2_TreeList" key="{2B314881-B548-4FF0-B429-08AA24C8FE56}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="1. Запустить приложение" key="{5A2CB407-513F-449F-A934-EC5310137A88}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2. Развернуть приложение на весь экран" key="{9A6F4AD6-2732-4671-A2D0-466CC6DBDC21}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="3. Выбрать раздел &quot;Форма с TreeList&quot;" key="{AC11FDAA-92AF-4DDF-9381-81369EA480CE}" group="False" enabled="True" testMoniker="{39FD57B2-88DB-4609-8BFF-34744C5AC69D}TestTreeList" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="4. Закрыть вкладку &quot;Форма с Tree List&quot;" key="{46DD31AF-DF60-45CD-AFCB-22B325889B26}" group="False" enabled="True" testMoniker="{0121E0D4-065F-44C2-8C0F-2999810EF2FC}TestCloseFEdits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Закрыть приложение" key="{1AA312D8-393D-4D60-8E16-65B56011B5F9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
-			<testItem name="3. Выбрать раздел &quot;Форма редакторов&quot;" key="{08CD165C-0C53-4A31-95C2-0BE0795F68C1}" group="False" enabled="True" testMoniker="{39C16801-6E7F-4569-8C39-5506894C1314}OpenEditorsFormApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Case_3_PivotGrid" key="{3B879E10-6CB2-4771-A9C1-64561D3BFE32}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="4-7. Проверка Memo" key="{2D4DC128-457A-4994-ABE0-DD3476E40BF3}" group="False" enabled="True" testMoniker="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}TestMemo" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="8-10. Проверка TextEdit" key="{6CFE4BF1-31B6-4F4E-A36D-B24A4787D6D8}" group="False" enabled="True" testMoniker="{DE23E989-53AC-4243-873B-544A6469F530}TestTextEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="11-15. Проверка CheckBox" key="{54155006-49A9-406A-B76B-30E6DDDC69F9}" group="False" enabled="True" testMoniker="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}TestCheckBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="16-18. Проверка CurrencyEdit" key="{A9913B4F-77DD-460C-AA75-609035F58F01}" group="False" enabled="True" testMoniker="{86BECEBC-B440-4203-8DB5-F6422B85505A}TestCurrencyEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="19-21. Проверка CheckComboBox" key="{447B02D3-F509-43EC-AFAC-6106A11F9B01}" group="False" enabled="True" testMoniker="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}TestCheckComboBox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="22-25. Проверка SpinEdit" key="{F256A272-D1DC-46D5-A2BE-FC0CEAFACFC6}" group="False" enabled="True" testMoniker="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}TestSpinEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="26-28. Проверка DateEdit" key="{81C97966-B0FA-4CC8-92CE-790FD4211C42}" group="False" enabled="True" testMoniker="{BB859F59-B9F3-4319-A559-83F54A6BA287}TestDateEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="29-32. Проверка ProgressEdit" key="{8B010E85-81CA-4193-92ED-00772E37EC6E}" group="False" enabled="True" testMoniker="{71DBE537-3EFD-403F-B0D2-98C376666972}TestProgressEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="33-37. Проверка LookUpEdit" key="{AF28AFB1-B374-4FDB-84A9-F472D57FA5B3}" group="False" enabled="True" testMoniker="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}TestLookUpEdit" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="38. Закрыть вкладку &quot;Форма редакторов&quot;" key="{35A9FDD6-9B29-49FE-97A7-00B09E9BF822}" group="False" enabled="True" testMoniker="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}TestCloseFEdits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
-			</testItem>
-			<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<children />
+				<children>
+					<testItem name="1. Запустить приложение" key="{53D0D254-CB88-4857-BCB6-215A1495AA58}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2. Развернуть приложение на весь экран" key="{E4AF010C-993B-480D-BA1E-3CD1E6F4D4F3}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="3. Выбрать раздел &quot;Форма с PivotGrid&quot;" key="{47D97C43-E7AA-4B4D-8D88-B58E5E63D9D2}" group="False" enabled="True" testMoniker="{525AFAF1-F508-4448-8FC5-C2D8D9763551}OpenPivotGridApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="4. DataFields" key="{BCFAC0C8-621E-47C8-94A6-09197E809D91}" group="False" enabled="True" testMoniker="{96DC343D-5D65-4DB4-BC0D-3DCCE5BF2842}SelectDataFields" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Закрыть приложение_1" key="{B6D3D9D1-5F5D-4EDA-9100-A58A7E544864}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>

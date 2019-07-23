@@ -32,6 +32,9 @@
 			<Node name="{5b4ebbf9-5031-4368-9f81-71a8f1fa449f}">
 				<Prp name="relpath" type="S" value="..\Users\Admin\Desktop\SportMasterRecordTest\SportMasterRecordTest\SportMasterRecordTest.mds.tcLS"/>
 			</Node>
+			<Node name="{82d4902f-1ea6-491b-9dd5-b50f903fe2d6}">
+				<Prp name="relpath" type="S" value="..\Users\Admin\Desktop\SportMasterRecordTest\TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
 			<Node name="envmngrlogs">
 				<Prp name="key" type="S" value="{B58A4EA0-EDA7-4E9A-8B67-C577D7A4C015}"/>
 			</Node>

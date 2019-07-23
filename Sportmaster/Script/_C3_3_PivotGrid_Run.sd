@@ -1,0 +1,7 @@
+﻿function OpenPivotGridApp;
+var OpenPivotGrid;
+begin
+
+  OpenPivotGrid := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').VCLObject('bbPivotGrid').Click;
+  
+end;

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="10618"/>
+						<Prp name="duration" type="I" value="10618"/>
+						<Prp name="name" type="S" value="4. DataFields"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEIARgA1AEMANwBBADgALQBCADgAQQBGAC0ANAA3ADIAOQAtAEIAQgAzAEQALQAxADcARQA5AEIAQgA4ADYAMgA4ADQARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="43669.9538700347"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="1345"/>
+						<Prp name="duration" type="I" value="1345"/>
+						<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма с PivotGrid&quot;"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADAANQA5ADkAMABGADgALQA1ADQAQQBDAC0ANABDADAAQgAtAEEAMwBFADYALQBGAEMARQBFAEEANgBEADAAQQAxAEYAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="43669.9538544676"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="163"/>
+						<Prp name="duration" type="I" value="163"/>
+						<Prp name="name" type="S" value="2. Развернуть приложение на весь экран"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEUAOAA5ADYAQQBBADIALQA4ADgARgBDAC0ANAA1ADkAOAAtADkARQAwADIALQAwADgAQQA3ADQAMwBCAEYARgBDADUAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="43669.9538525694"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="562"/>
+						<Prp name="duration" type="I" value="562"/>
+						<Prp name="name" type="S" value="1. Запустить приложение"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAAOQA2AEEAMQBDAEMALQAyADEARQA2AC0ANABGAEUAOQAtAEIANwAzADYALQA2AEIAMABDADkARABCAEIANQBGADgANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="starttime" type="D" value="43669.9538460648"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="43669.9538460648"/>
+				<Prp name="duration" type="I" value="12688"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="Sportmaster"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="4"/>
+		<Prp name="stop" type="D" value="43669.9539945486"/>
+		<Prp name="name" type="S" value="Sportmaster"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="43669.9538458796"/>
+		<Prp name="key" type="S" value="{F7CA2B4A-27EC-4A09-911A-3BF1B0D3B033}"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="user" type="S" value="Admin"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Sportmaster"/>
+		<Prp name="host" type="S" value="MAX"/>
+	</Node>
+</Nodes>

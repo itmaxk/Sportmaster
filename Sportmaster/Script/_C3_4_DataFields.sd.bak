@@ -1,0 +1,52 @@
+﻿function SelectDataFields;
+var ms, FirstClick, SelectListBox, SecondClick, ThirdClick, MainMenu, FieldList, AddToButtun, CityFilter, FindChild, SCity;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest');
+  
+  MainMenu.ClickR(25,55);
+  MainMenu.PopupMenu.Click('Show Field List');
+  FieldList := Sys.Process('TestEnvironment(TD32)').Window('TcxPivotGridCustomizationForm', 'PivotGrid Field List', 1);
+  FieldList.Position(220,160,300,300);
+  
+  MainMenu.Drag(520,15,-190,120); // Square_avg
+  MainMenu.Drag(610,15,-300,140); // ShopID
+  
+  FieldList.Close(); // Закрыть окно 'Field List'
+  
+  MainMenu.Drag(280,15,-260,90); // City
+  MainMenu.Drag(480,15,-400,95); // Shop
+  
+  MainMenu.Drag(490,15,-450,5); // Income_Sum
+  MainMenu.Drag(490,17,-375,5); // Value_custom
+  
+  MainMenu.ClickR(25,55);
+  MainMenu.PopupMenu.Click('Show Field List');
+  SelectListBox := FieldList.Window('TcxFieldListListBox', '', 1);
+  SelectListBox.Keys('[Up]'); // Square_avg
+  FieldList.Window('TcxGroupBox', '', 1).Window('TcxComboBox', '', 1).ClickItem('Data Area');
+  AddToButtun := FieldList.Window('TcxGroupBox', '', 1).Window('TcxButton', 'Add To', 1);
+  AddToButtun.ClickButton;
+  
+  SelectListBox.Click(); // ShopID
+  FieldList.Window('TcxGroupBox', '', 1).Window('TcxComboBox', '', 1).ClickItem('Row Area');
+  AddToButtun.ClickButton;
+  
+  FieldList.Close(); // Закрыть окно 'Field List'
+  //CityFilter := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('mdCity');
+  //FindChild := CityFilter.FFields;
+  
+  ms := 1000;
+  FirstClick := MainMenu.Click(126,89); // Open City
+  Delay(ms, FirstClick);
+    
+  CityFilter := Sys.Process('TestEnvironment(TD32)').Window('TcxPivotGridFilterPopupWindow', '', 1);
+  SecondClick := CityFilter.Click(9,9); // Uncheck (Show All)
+  Delay(ms, SecondClick);
+  
+  ThirdClick := CityFilter.WMSetFocus('Оренбург');
+  //ThirdClick := CityFilter.Keys('[Down][Down][Down]'); 
+  //CityFilter.Click();// Select Orenburg
+  Delay(ms, ThirdClick);
+  
+end;

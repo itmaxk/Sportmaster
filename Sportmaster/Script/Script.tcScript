@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="_1_Run" key="{47DF03CB-99E8-4308-9181-4C319FC652A5}" path="_1_Run.sd" />
-		<child name="_2_Resize" key="{26345040-DDF9-44A8-817E-48D9F0605055}" path="_2_Resize.sd" />
-		<child name="_3_Editors_Form" key="{39C16801-6E7F-4569-8C39-5506894C1314}" path="_3_Editors_Form.sd" />
-		<child name="_CloseApp" key="{1389EECA-16BC-4510-9C95-B108F0AEB84C}" path="_CloseApp.sd" />
-		<child name="_4_7_Memo" key="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}" path="_4_7_Memo.sd" />
-		<child name="_8_10_TextEdit" key="{DE23E989-53AC-4243-873B-544A6469F530}" path="_8_10_TextEdit.sd" />
-		<child name="_11_15_CheckBox" key="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}" path="_11_15_CheckBox.sd" />
-		<child name="_16_18_CurrencyEdit" key="{86BECEBC-B440-4203-8DB5-F6422B85505A}" path="_16_18_CurrencyEdit.sd" />
-		<child name="_19_21_CheckComboBox" key="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}" path="_19_21_CheckComboBox.sd" />
-		<child name="_22_25_SpinEdit" key="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}" path="_22_25_SpinEdit.sd" />
-		<child name="_26_28_DateEdit" key="{BB859F59-B9F3-4319-A559-83F54A6BA287}" path="_26_28_DateEdit.sd" />
-		<child name="_29_32_ProgressEdit" key="{71DBE537-3EFD-403F-B0D2-98C376666972}" path="_29_32_ProgressEdit.sd" />
-		<child name="_33_37_LookUpEdit" key="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}" path="_33_37_LookUpEdit.sd" />
-		<child name="_38_Editors_Form" key="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}" path="_38_Editors_Form.sd" />
+		<folder name="Test_Case_1_FEdits">
+			<child name="_1_Run" key="{47DF03CB-99E8-4308-9181-4C319FC652A5}" path="_1_Run.sd" />
+			<child name="_11_15_CheckBox" key="{C1197193-53DE-4A8A-A5AE-4CA62D4322DE}" path="_11_15_CheckBox.sd" />
+			<child name="_16_18_CurrencyEdit" key="{86BECEBC-B440-4203-8DB5-F6422B85505A}" path="_16_18_CurrencyEdit.sd" />
+			<child name="_19_21_CheckComboBox" key="{FB117BA6-9653-4993-B9E4-724BA6D4AF66}" path="_19_21_CheckComboBox.sd" />
+			<child name="_2_Maximize" key="{26345040-DDF9-44A8-817E-48D9F0605055}" path="_2_Maximize.sd" />
+			<child name="_22_25_SpinEdit" key="{C1DC132E-3262-46F2-BCD8-E5333CC8EBC1}" path="_22_25_SpinEdit.sd" />
+			<child name="_26_28_DateEdit" key="{BB859F59-B9F3-4319-A559-83F54A6BA287}" path="_26_28_DateEdit.sd" />
+			<child name="_29_32_ProgressEdit" key="{71DBE537-3EFD-403F-B0D2-98C376666972}" path="_29_32_ProgressEdit.sd" />
+			<child name="_3_FEdits_Run" key="{39C16801-6E7F-4569-8C39-5506894C1314}" path="_3_FEdits_Run.sd" />
+			<child name="_33_37_LookUpEdit" key="{E869EFDD-207F-44C1-BF61-A6DABD2CCEDB}" path="_33_37_LookUpEdit.sd" />
+			<child name="_38_FEdits_Close" key="{0DBCDB4B-8E8E-4169-929A-ABE28BD86CBC}" path="_38_FEdits_Close.sd" />
+			<child name="_4_7_Memo" key="{E2DF9914-EB2D-4F76-A035-AAF8E32EE6FF}" path="_4_7_Memo.sd" />
+			<child name="_8_10_TextEdit" key="{DE23E989-53AC-4243-873B-544A6469F530}" path="_8_10_TextEdit.sd" />
+			<child name="_CloseApp" key="{1389EECA-16BC-4510-9C95-B108F0AEB84C}" path="_CloseApp.sd" />
+		</folder>
+		<folder name="Test_Case_2_TreeList">
+			<child name="_C2_3_7_TreeList" key="{39FD57B2-88DB-4609-8BFF-34744C5AC69D}" path="_C2_3_7_TreeList.sd" />
+			<child name="_C2_8_TreeList_Close" key="{0121E0D4-065F-44C2-8C0F-2999810EF2FC}" path="_C2_8_TreeList_Close.sd" />
+		</folder>
+		<folder name="Test_Case_3_PivotGrid">
+			<child name="_C3_3_PivotGrid_Run" key="{525AFAF1-F508-4448-8FC5-C2D8D9763551}" path="_C3_3_PivotGrid_Run.sd" />
+			<child name="_C3_4_DataFields" key="{96DC343D-5D65-4DB4-BC0D-3DCCE5BF2842}" path="_C3_4_DataFields.sd" />
+		</folder>
 	</children>
 </Root>

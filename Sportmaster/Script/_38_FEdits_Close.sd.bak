@@ -1,0 +1,7 @@
+﻿function TestCloseFEdits;
+var MainMenu;
+begin
+  
+  MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').Close();
+  
+end;
