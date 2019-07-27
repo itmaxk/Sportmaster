@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="43674.0210984375"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="4. Закрыть вкладку &quot;Форма с Tree List&quot; [Script\_C2_8_TreeList_Close - TestCloseFEdits]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{387DB25C-B6EF-4965-8F2B-FE8160B4DCCA}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43674.0210967593"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="43674.0210967014"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма с TreeList&quot; [Script\_C2_3_7_TreeList - TestTreeList]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="details" type="S" value="{19DEFECA-19F0-44B5-A9BA-A653ED23AF59}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43674.021085787"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

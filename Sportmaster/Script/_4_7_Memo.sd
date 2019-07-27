@@ -1,5 +1,5 @@
 ﻿function TestMemo;
-var GoToMemo, ClickToMemoValue, MainMenu, LabelMemo, TestText;
+var GoToMemo, MainMenu, LabelMemo, TestText;
 begin
   
   TestText := 'Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.';
@@ -7,7 +7,7 @@ begin
   GoToMemo := MainMenu.VCLObject('pMainPanel').VCLObject('mTest').VCLObject('mTestEdit').Window('TcxCustomInnerMemo', '', 1);
   GoToMemo.Text() := 'Товарищи! сложившаяся структура организации представляет собой интересный эксперимент проверки направлений прогрессивного развития. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.';
   LabelMemo := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 7);
-  ClickToMemoValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 7).Click;
+  MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 7).Click;
   if (LabelMemo.Caption = TestText) then
     Log.Message('Новое значение в поле Memo появилось!')
   else

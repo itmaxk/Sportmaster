@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210750694"/>
+						<Prp name="durationwithoutchildren" type="I" value="788"/>
+						<Prp name="name" type="S" value="33-37. Проверка LookUpEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="788"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEYAOABGADIAMQBBADIALQA4ADEAOAA4AC0ANABCAEQANQAtADgAOQAxAEYALQA2ADYARABCADIAMAA2ADYAQQAxADQAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test16">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210992477"/>
+						<Prp name="durationwithoutchildren" type="I" value="13977"/>
+						<Prp name="name" type="S" value="4. DataFields"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="13977"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEYAQwBFADMAOQBDADgALQBFAEMAQQAxAC0ANAA4ADMARQAtAEIAMQBBADUALQAyADIARQA1AEYAMAA1ADMARgAyAEMAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test14">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210967593"/>
+						<Prp name="durationwithoutchildren" type="I" value="151"/>
+						<Prp name="name" type="S" value="4. Закрыть вкладку &quot;Форма с Tree List&quot;"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="151"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADgANwBEAEIAMgA1AEMALQBCADYARQBGAC0ANAA5ADYANQAtADgARgAyAEIALQBGAEUAOAAxADYAMABCADQARABDAEMAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209998958"/>
+						<Prp name="durationwithoutchildren" type="I" value="825"/>
+						<Prp name="name" type="S" value="11-15. Проверка CheckBox"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="825"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADcAMwBCADUAOAA2AEEALQBEAEUAMAAzAC0ANABDADcAMwAtADgAOQAzADMALQBDAEQARgBDADYAQQBDADAAOQA3ADYAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test13">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.021085787"/>
+						<Prp name="durationwithoutchildren" type="I" value="948"/>
+						<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма с TreeList&quot;"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="948"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADkARABFAEYARQBDAEEALQAxADkARgAwAC0ANAA0AEIANQAtAEEAOQBCAEEALQBBADYANQAzAEUARAAyADMAQQBGADUAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209950694"/>
+						<Prp name="durationwithoutchildren" type="I" value="417"/>
+						<Prp name="name" type="S" value="8-10. Проверка TextEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="417"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEUARQAwADkANAA5AEYALQBFADMAQgBFAC0ANAA2ADYAMAAtAEEAMwA3AEQALQA3AEQAQgA0ADAANAAxADkAMwBGADQANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210256366"/>
+						<Prp name="durationwithoutchildren" type="I" value="467"/>
+						<Prp name="name" type="S" value="22-25. Проверка SpinEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="467"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEIAOAA2AEYAQgBDADcALQA1ADgAOABGAC0ANABFAEIAOAAtADgANAA5AEUALQBCADAAQgBCADMAMQA3AEYANwAxAEEANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209905324"/>
+						<Prp name="durationwithoutchildren" type="I" value="392"/>
+						<Prp name="name" type="S" value="4-7. Проверка Memo"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="392"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADMARABGADQANABGADgALQAwADcANAA3AC0ANAAwADUANwAtAEIAMwAwAEEALQA5ADQAQgA0ADYANQA2AEIAQwAyAEEARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209568403"/>
+						<Prp name="durationwithoutchildren" type="I" value="754"/>
+						<Prp name="name" type="S" value="1. Запустить приложение"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="754"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADkAQgAzADcANgBEADQALQBEAEYAQgA4AC0ANAAzAEUAQwAtADkANwAwAEMALQBGAEQANgBGAEQAQgA4ADUAOQBCADEARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210157755"/>
+						<Prp name="durationwithoutchildren" type="I" value="852"/>
+						<Prp name="name" type="S" value="19-21. Проверка CheckComboBox"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="852"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADUAMQA3ADIARgA4ADgALQBGAEEARQA1AC0ANABDADEAQQAtAEEANABDADAALQA2ADkAQgBDAEIAOABFADUAOABCADkAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210310417"/>
+						<Prp name="durationwithoutchildren" type="I" value="553"/>
+						<Prp name="name" type="S" value="26-28. Проверка DateEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="553"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADEANQAxAEMAMwA4ADgALQA0AEIANgBCAC0ANAA2ADEAOQAtADkARABFADIALQBEADYAQQBBADIANQBFADYANQBEADAAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test15">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210985532"/>
+						<Prp name="durationwithoutchildren" type="I" value="60"/>
+						<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма с PivotGrid&quot;"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="60"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADYAMAAwAEMANQBEADAALQBGAEIANAA1AC0ANAAzADcANAAtAEEAOQAwADMALQBEAEEAQgBGAEYANAA1ADIAQwAyADkAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209655671"/>
+						<Prp name="durationwithoutchildren" type="I" value="346"/>
+						<Prp name="name" type="S" value="2. Развернуть приложение на весь экран"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="346"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADcARQA0ADgAOABCADEALQAyADMANQBFAC0ANABDADIARQAtAEIARAA3AEQALQBFADYAMAA5AEUAMQBEAEIANwAzADkANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0209695718"/>
+						<Prp name="durationwithoutchildren" type="I" value="1811"/>
+						<Prp name="name" type="S" value="3. Выбрать раздел &quot;Форма редакторов&quot;"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="1811"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEUAQQA4ADUARAA5ADUALQBEADUAQQBCAC0ANAAzAEYARQAtADkAMgAwADkALQAwADYAMgA3ADcAMAA3AEEAMAAwADYAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210374421"/>
+						<Prp name="durationwithoutchildren" type="I" value="3251"/>
+						<Prp name="name" type="S" value="29-32. Проверка ProgressEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="3251"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEIAQQA4AEYAQwA2ADYALQA0ADAANgA1AC0ANABFAEQANAAtADgANQBDADkALQAxADUAQwA1AEIARgBCAEMARgBCAEUAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210094444"/>
+						<Prp name="durationwithoutchildren" type="I" value="547"/>
+						<Prp name="name" type="S" value="16-18. Проверка CurrencyEdit"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="547"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADcARQBDAEQAMwBGAEMALQA3ADMAOAAzAC0ANAA4ADkAMAAtAEIARgA2AEUALQAxADgANwA5AEQANwAwADQAMQAyAEUARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="43674.0210841898"/>
+						<Prp name="durationwithoutchildren" type="I" value="137"/>
+						<Prp name="name" type="S" value="38. Закрыть вкладку &quot;Форма редакторов&quot;"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="137"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEIAMQAzADMANgA1ADQALQA0ADgANwBGAC0ANAAzADkAMQAtAEIAQgBFADcALQAyADAARAA3ADIAMwBBAEIAQwBDADgANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="Sportmaster"/>
+				<Prp name="duration" type="I" value="26276"/>
+				<Prp name="starttime" type="D" value="43674.0209568403"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="user" type="S" value="Admin"/>
+		<Prp name="name" type="S" value="Sportmaster"/>
+		<Prp name="testname" type="S" value="Sportmaster"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="17"/>
+		<Prp name="key" type="S" value="{4A3F81B0-4DBE-4072-BD50-181096A976EE}"/>
+		<Prp name="host" type="S" value="MAX"/>
+		<Prp name="starttime" type="D" value="43674.0209567708"/>
+		<Prp name="stop" type="D" value="43674.0212650694"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

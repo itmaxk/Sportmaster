@@ -1,5 +1,5 @@
 ﻿function TestTextEdit;
-var GoToTextEdit, ClickToTextEdit, MainMenu, LabelTextEdit, TestText;
+var GoToTextEdit, MainMenu, LabelTextEdit, TestText;
 begin
   
   TestText := 'Test12345!';
@@ -7,7 +7,7 @@ begin
   GoToTextEdit := MainMenu.VCLObject('pMainPanel').VCLObject('edTest').VCLObject('edTestEdit').Window('TcxCustomInnerTextEdit', '', 1);
   GoToTextEdit.Text() := 'Test12345!';
   LabelTextEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '_________', 1);
-  ClickToTextEdit := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 1).Click;
+  MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 1).Click;
   if (LabelTextEdit.Caption = TestText) then
     Log.Message('Новое значение в поле TextEdit появилось!')
   else

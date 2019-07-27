@@ -1,4 +1,4 @@
-﻿function EditAndCheckTextEdit;
+﻿function TestTextEdit;
 var GoToTextEdit, ClickToTextEdit, MainMenu, LabelTextEdit, TestText;
 begin
   

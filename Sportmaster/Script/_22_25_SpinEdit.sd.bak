@@ -1,5 +1,5 @@
 ﻿function TestSpinEdit;
-var ClickToSpinEdit, MainMenuFocus, ClickToSpinEditList, KeyPreview, ClickToSpinEditValue, MainMenu, LabelSpinEdit, TestFalse, TestTrue;
+var ClickToSpinEdit, KeyPreview, ClickToSpinEditValue, MainMenu, LabelSpinEdit, TestTrue;
 begin
   
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');

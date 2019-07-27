@@ -1,14 +1,10 @@
 ﻿function TestLookUpEdit;
-var OpenList, Spn, ClickToLookUpEditValue, MainMenu, LabelLookUpEdit, TestTrue;
+var OpenList, SelectItem, ClickToLookUpEditValue, MainMenu, LabelLookUpEdit, TestTrue;
 begin
   
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
   OpenList := MainMenu.VCLObject('pMainPanel').VCLObject('lueTest').VCLObject('lueTestEdit').DropDown;
-  Spn := Sys.Process('TestEnvironment(TD32)').Window('TcxComboBoxPopupWindow', '', 1).Window('TcxCustomLookupDBGrid', '', 2).Click();
-  
-  // Select an item
- 
-  
+  SelectItem := Sys.Process('TestEnvironment(TD32)').Window('TcxComboBoxPopupWindow', '', 1).Window('TcxCustomLookupDBGrid', '', 2).Click();
   ClickToLookUpEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 9).Click;
   TestTrue := '_________';
   LabelLookUpEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '2', 9);

@@ -6,7 +6,7 @@ begin
   ClickToDateEdit := MainMenu.VCLObject('pMainPanel').VCLObject('deTest').VCLObject('deTestEdit').SetDate(43777);
   ClickToDateEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 10).Click;
   TestTrue := '_________';
-  LabelDateEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', 'Fri 08.11.19', 10);
+  LabelDateEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '08.11.2019', 10);
   if (LabelDateEdit.Caption = TestTrue) then
     Log.Message('Значение не изменилось')
   else

@@ -1,4 +1,4 @@
-﻿function EditAndCheckMemo;
+﻿function TestMemo;
 var GoToMemo, ClickToMemoValue, MainMenu, LabelMemo, TestText;
 begin
   

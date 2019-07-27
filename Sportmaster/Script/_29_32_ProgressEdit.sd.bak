@@ -9,7 +9,7 @@ begin
     end;
   ClickToProgressEditValue := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 4).Click;
   TestTrue := '_________';
-  LabelProgressEdit := MainMenu.VCLObject('pButtonsPanel').Window('TcxLabel', '12', 4);
+  LabelProgressEdit := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', '12', 4);
   if (LabelProgressEdit.Caption = TestTrue) then
     Log.Message('Значение не изменилось')
   else

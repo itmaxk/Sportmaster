@@ -1,5 +1,5 @@
 ﻿function TestCheckComboBox;
-var ClickToCheckComboBox, ClickToCheckComboBoxList, ClickToCheckComboBoxValue, MainMenu, LabelCheckComboBox, TestFalse, TestTrue;
+var ClickToCheckComboBox, ClickToCheckComboBoxList, ClickToCheckComboBoxValue, MainMenu, LabelCheckComboBox, TestTrue;
 begin
   
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');

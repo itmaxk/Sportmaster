@@ -53,26 +53,15 @@ begin
   MainMenu.ClickR(625,55); // Россия
   MainMenu.PopupMenu.Click('Expand');
   
-  //MainMenu.Click(950,140);
-  //80 + 220 = 300
-  For i:=1 to 219 do
-    begin
-      MainMenu.Click(965,150);
-    end;
+  MainMenu.Click(950,140);
+  MainMenu.Window('TcxSpinEdit', '80', 1).Keys('300');
   
-  //MainMenu.Click(1000,155);
-  //150 + 450 = 600
-  For i:=1 to 449 do
-    begin
-      MainMenu.Click(1070,150);
-    end;
+  MainMenu.Click(1000,155);
+  MainMenu.Window('TcxSpinEdit', '', 1).Keys('600');
   
-  //MainMenu.Click(1115,170);
-  //115 + 285 = 400
-  For i:=1 to 284 do
-    begin
-      MainMenu.Click(1175,170);
-    end;
+  MainMenu.Click(1115,170);
+  MainMenu.Window('TcxSpinEdit', '', 1).Keys('400');
+  MainMenu.Window('TcxSpinEdit', '', 1).Keys('[Enter]');
   
   // Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').Close();
     

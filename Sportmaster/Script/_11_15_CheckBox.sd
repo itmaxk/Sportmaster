@@ -1,20 +1,18 @@
 ﻿function TestCheckBox;
-var SelectCheckBox, ClickToCheckBox, MainMenu, LabelCheckBox, TestFalse, TestTrue;
+var MainMenu, LabelCheckBox;
 begin
   
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FEdits').VCLObject('sbMain');
-  ClickToCheckBox := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
-  TestFalse := 'False';
+  MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
   LabelCheckBox := MainMenu.VCLObject('pLabelsPanel').Window('TcxLabel', 'False', 14);
-  if (LabelCheckBox.Caption = TestFalse) then
+  if (LabelCheckBox.Caption = 'False') then
     Log.Message('Значение False справа от CheckBox появилось!')
   else
     Log.Message('Не указано значения или отображается другое значение справа от CheckBox');
   
-  SelectCheckBox := MainMenu.VCLObject('pMainPanel').VCLObject('cbTest').VCLObject('cbTestEdit').Click;
-  ClickToCheckBox := MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
-  TestTrue := 'True';
-  if (LabelCheckBox.Caption = TestTrue) then
+  MainMenu.VCLObject('pMainPanel').VCLObject('cbTest').VCLObject('cbTestEdit').Click;
+  MainMenu.VCLObject('pButtonsPanel').Window('TcxButton', 'Значение ->', 14).Click;
+  if (LabelCheckBox.Caption = 'True') then
     Log.Message('Значение True справа от CheckBox появилось!')
   else
     Log.Message('Не указано значения или отображается другое значение справа от CheckBox');

@@ -65,7 +65,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Закрыть приложение" key="{668962A4-5DDC-40ED-8EB8-2F016A4FFFB9}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
@@ -74,11 +74,11 @@
 			<testItem name="Test_Case_2_TreeList" key="{2B314881-B548-4FF0-B429-08AA24C8FE56}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="1. Запустить приложение" key="{5A2CB407-513F-449F-A934-EC5310137A88}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="1. Запустить приложение" key="{5A2CB407-513F-449F-A934-EC5310137A88}" group="False" enabled="False" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="2. Развернуть приложение на весь экран" key="{9A6F4AD6-2732-4671-A2D0-466CC6DBDC21}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="2. Развернуть приложение на весь экран" key="{9A6F4AD6-2732-4671-A2D0-466CC6DBDC21}" group="False" enabled="False" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
@@ -90,7 +90,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Закрыть приложение" key="{1AA312D8-393D-4D60-8E16-65B56011B5F9}" group="False" enabled="True" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Закрыть приложение" key="{1AA312D8-393D-4D60-8E16-65B56011B5F9}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
@@ -99,11 +99,11 @@
 			<testItem name="Test_Case_3_PivotGrid" key="{3B879E10-6CB2-4771-A9C1-64561D3BFE32}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="1. Запустить приложение" key="{53D0D254-CB88-4857-BCB6-215A1495AA58}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="1. Запустить приложение" key="{53D0D254-CB88-4857-BCB6-215A1495AA58}" group="False" enabled="False" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="2. Развернуть приложение на весь экран" key="{E4AF010C-993B-480D-BA1E-3CD1E6F4D4F3}" group="False" enabled="True" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="2. Развернуть приложение на весь экран" key="{E4AF010C-993B-480D-BA1E-3CD1E6F4D4F3}" group="False" enabled="False" testMoniker="{26345040-DDF9-44A8-817E-48D9F0605055}MaximizeTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
@@ -115,7 +115,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Закрыть приложение_1" key="{B6D3D9D1-5F5D-4EDA-9100-A58A7E544864}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="Закрыть приложение" key="{B6D3D9D1-5F5D-4EDA-9100-A58A7E544864}" group="False" enabled="False" testMoniker="{1389EECA-16BC-4510-9C95-B108F0AEB84C}CloseTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
