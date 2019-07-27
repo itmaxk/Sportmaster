@@ -10,7 +10,7 @@
 	<config language="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" />
 	<testItems key="{A8B992A2-B884-4010-85F3-041BC10C2F6D}" version="14">
 		<children>
-			<testItem name="Test_Case_1_FEdits" key="{5E8152C4-4518-416C-AB4F-6D593E2A4A84}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Case_1_FEdits" key="{5E8152C4-4518-416C-AB4F-6D593E2A4A84}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="1. Запустить приложение" key="{8C7C13FF-6683-4D4D-BEC4-BAA849FDF537}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -71,7 +71,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="Test_Case_2_TreeList" key="{2B314881-B548-4FF0-B429-08AA24C8FE56}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Test_Case_2_TreeList" key="{2B314881-B548-4FF0-B429-08AA24C8FE56}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="1. Запустить приложение" key="{5A2CB407-513F-449F-A934-EC5310137A88}" group="False" enabled="True" testMoniker="{47DF03CB-99E8-4308-9181-4C319FC652A5}LaunchTestedApp" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">

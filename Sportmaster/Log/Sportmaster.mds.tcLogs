@@ -23,21 +23,39 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43669.9616029051"/>
+				<Prp name="datetime" type="D" value="43673.9012455324"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{E15C7B64-EF88-4AB7-AF73-66522F54F8BF}"/>
+				<Prp name="key" type="S" value="{C783E4DD-FF0B-4F9D-B4E7-1D87B61E66DE}"/>
 				<Prp name="nameofroot" type="S" value="Sportmaster"/>
-				<Prp name="relpath" type="S" value="23_07_2019_23_04_42_491\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="relpath" type="S" value="27_07_2019_21_37_47_614\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43669.9620432639"/>
+				<Prp name="datetime" type="D" value="43673.9026509722"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{4A2419AB-ADD9-49D1-B99E-77ED40CE29DC}"/>
-				<Prp name="nameofroot" type="S" value="Sportmaster"/>
-				<Prp name="relpath" type="S" value="23_07_2019_23_05_20_538\Description.tcLog"/>
+				<Prp name="key" type="S" value="{BFACDC8D-A812-4CB1-9AE4-805BD9178118}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [_26_28_DateEdit\TestDateEdit]"/>
+				<Prp name="relpath" type="S" value="27_07_2019_21_39_49_44\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43673.9041748843"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9B223D75-EBCA-4026-B631-E82B8D1681C0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [_26_28_DateEdit\TestDateEdit]"/>
+				<Prp name="relpath" type="S" value="27_07_2019_21_42_00_710\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43673.9047048264"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3B536A53-5B90-4640-83CF-3E5EC37E6C1F}"/>
+				<Prp name="nameofroot" type="S" value="Sportmaster"/>
+				<Prp name="relpath" type="S" value="27_07_2019_21_42_46_497\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>

@@ -20,6 +20,9 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
+			<Node name="{0483189c-bef1-44ce-8d33-8eda30fd7e48}">
+				<Prp name="relpath" type="S" value="..\Users\Admin\Desktop\SportMasterRecordTest\TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{44EC274C-837B-4BEE-8235-ACE6A3A7B84C}"/>
 			</Node>

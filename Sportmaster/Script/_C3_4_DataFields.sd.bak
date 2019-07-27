@@ -1,5 +1,5 @@
 ﻿function SelectDataFields;
-var ms, FirstClick, SelectListBox, SecondClick, ThirdClick, MainMenu, FieldList, AddToButtun, CityFilter, FindChild, SCity;
+var i, ms, SetText1, FirstClick, SelectListBox, SecondClick, ThirdClick, MainMenu, FieldList, AddToButtun, CityFilter, FindChild, SCity;
 begin
   
   MainMenu := Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest');
@@ -44,9 +44,36 @@ begin
   SecondClick := CityFilter.Click(9,9); // Uncheck (Show All)
   Delay(ms, SecondClick);
   
-  ThirdClick := CityFilter.Click(9,45);
-  //ThirdClick := CityFilter.Keys('[Down][Down][Down]'); 
-  //CityFilter.Click();// Select Orenburg
+  ThirdClick := CityFilter.Click(9,45); // Select Orenburg
   Delay(ms, ThirdClick);
   
+  MainMenu.Click(11,113); // Магазин 1-3
+  MainMenu.Click(28,133); // Оренбург
+  
+  MainMenu.ClickR(625,55); // Россия
+  MainMenu.PopupMenu.Click('Expand');
+  
+  //MainMenu.Click(950,140);
+  //80 + 220 = 300
+  For i:=1 to 219 do
+    begin
+      MainMenu.Click(965,150);
+    end;
+  
+  //MainMenu.Click(1000,155);
+  //150 + 450 = 600
+  For i:=1 to 449 do
+    begin
+      MainMenu.Click(1070,150);
+    end;
+  
+  //MainMenu.Click(1115,170);
+  //115 + 285 = 400
+  For i:=1 to 284 do
+    begin
+      MainMenu.Click(1175,170);
+    end;
+  
+  // Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').Close();
+    
 end;
